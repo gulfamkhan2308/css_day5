@@ -1,42 +1,27 @@
+h1, h2 {
+  color:blue;
+  border: 3px solid rgb(209, 51, 51);
+  background-color: aquamarine;
+  mask-border-mode: rgb(177, 6, 6);
+}
 
+  body{
+    color:rgb(225, 217, 233);
+    background-color: rgb(165, 168, 173);
+  }
+  
+  /* styles.css */
 table {
   border-collapse: collapse;
   width: 100%;
-  border: 1px solid #dddddd; /* Outer border for the table */
 }
 
 th, td {
-  border: 1px solid #dddddd; /* Borders for table cells */
-  text-align: left;
+  border: 1px solid #000;
   padding: 8px;
+  text-align: left;
+  
 }
-
-tr:nth-child(even) {
-  background-color: #9c6565; /* Alternate row background color */
-}
-img {
-    border: 6px solid rgb(55, 39, 92); /* You can change "black" to your desired border color */
-    border: 1px solid rgb(185, 114, 114);
-    border-radius: 50%;
-}
-h1 ,h2{
-    color: green
-  }
-body{.styled-table th {
-    background-color: #000;
-    text-align: left;
-    padding: 10px;
-    border: 1px solid #ddd;
-}
-  background-color: #16181C;
-  color: rgb(109, 180, 141)
-}
-.styled-table {
-    border-collapse: collapse;
-    width: 100%;
-    max-width: 600px; 
-    margin: 0 auto; 
-    font-family: Arial, sans-serif;
-    background-color: #16181C; 
-    color: #8063b8; 
-}
+td:hover {
+  background-color: #f5f5f5;
+  cursor: pointer;
