@@ -1,0 +1,30 @@
+.h1 {
+    background-color: lightgreen;
+    color: #fff; /* Set text color to white for better visibility on the background */
+    padding: 10px; /* Add padding for some spacing around the text */
+  }
+  .h2{
+    background-color: rgb(144, 235, 238);
+    color: #fff; /* Set text color to white for better visibility on the background */
+    padding: 10px; /* Add padding for some spacing around the text */
+  }
+  .h1{
+    border: 1px solid gray;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+  }
+  .h2{
+    border: 1px solid gray;
+    border-radius: 10px;
+  }
+
+  .circular-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #4f5851;
+    margin: auto;
+    margin-top: 20px;
+  }
